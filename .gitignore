@@ -1,0 +1,23 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large local data and model artifacts
+instructions.txt
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoints/
+outputs/
+
+# Secrets and environment files
+.env
+.env.*
+secrets.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
